@@ -15,7 +15,7 @@ async def HWIDReset(ctx, arg):
 
     #await ctx.send("invalid syntax, command should look like this $hwid NayNaed")
 
-  hwidRequest = requests.get("https://projecthades.org/PH/includes/api/ph_api.php?action=hwid", json = {
+  hwidRequest = requests.get("https://www.projecthades.org/PH/includes/api/ph_api.php?action=hwid", json = {
   "client_id" : "replace with client id",
   "request" : "reset",
   "user" : arg
